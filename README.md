@@ -5,9 +5,10 @@
 - [x] Detailed Logging: View all intercepted network traffic, including headers and body.
 - [x] User-Friendly Interface: Simple and intuitive interface to monitor network activity.
 
-## Future Features
+## Todos
 - [ ] Brotli Decryption: Automatically decompress Brotli-encoded responses to display human-readable content.
 - [ ] Request Modification: Allow users to edit and resend intercepted network requests.
+- [ ] Improve UI
 
 ## Basic Usage
 <p align="center">
