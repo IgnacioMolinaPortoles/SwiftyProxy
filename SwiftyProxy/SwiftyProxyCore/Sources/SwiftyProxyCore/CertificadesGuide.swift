@@ -26,17 +26,13 @@
 //ST = Delaware
 //L = Wilmington
 //O = Nacom LLC
-//CN = *.flow.com.ar  # Puedes mantener *.flow.com.ar aquí como el dominio principal
+//CN = jsonplaceholder.typicode.com
 //
 //[req_ext]
 //subjectAltName = @alt_names
 //
 //[alt_names]
-//DNS.1 = *.flow.com.ar
-//DNS.2 = flow.com.ar
-//DNS.3 = *.mnedge.cvattv.com.ar
-//DNS.4 = mnedge.cvattv.com.ar
-//DNS.5 = jsons.app.flow.com.ar
+//DNS.1 = jsonplaceholder.typicode.com
 //EOF
 
 //# Generar una CSR (Certificate Signing Request) para el servidor
