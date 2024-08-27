@@ -1,5 +1,6 @@
 <img width="1271" alt="Screenshot 2024-08-26 at 9 58 54 PM" src="https://github.com/user-attachments/assets/818e1042-5273-4fd8-a0fc-6165e23333e9">
 
+<img width="420" alt="Screenshot 2024-08-26 at 10 01 18 PM" src="https://github.com/user-attachments/assets/ecd300e4-a540-4acf-91be-984fe4e47414">
 
 
 Features
@@ -13,7 +14,13 @@ Future Features
 
 Basic Usage
 
-Creating certificates
+1. Create certificates (See below)
+2. Install cerificates in Mac and iOS Simulator
+3. Configure certificates in SwiftyProxy
+4. Start server (First button) and set wifi proxy (Second button)
+5. Start watching your network traffic!
+
+# Creating certificates
 
 Generate the Root Certificate (Root CA)
 This certificate will be used to sign the server and client certificates. It must be installed on both the Mac and the simulator.
