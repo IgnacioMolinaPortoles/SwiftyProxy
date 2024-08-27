@@ -100,8 +100,9 @@ let serverKeyPath = """
 ```
 
 
-Contributing
+### Contributing
+
 Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
 
-Contact
+### Contact
 For any questions, feel free to reach out via issues or by contacting in [LinkedIn](https://www.linkedin.com/in/ignacio-molina-portoles-a4b844173/)
