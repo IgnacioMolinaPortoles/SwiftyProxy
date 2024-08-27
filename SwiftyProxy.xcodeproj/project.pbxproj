@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		73623B982C7D39B50050F293 /* SwiftyProxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623B972C7D39B50050F293 /* SwiftyProxyApp.swift */; };
-		73623B9A2C7D39B50050F293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623B992C7D39B50050F293 /* ContentView.swift */; };
 		73623B9C2C7D39B70050F293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73623B9B2C7D39B70050F293 /* Assets.xcassets */; };
 		73623B9F2C7D39B70050F293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73623B9E2C7D39B70050F293 /* Preview Assets.xcassets */; };
 		73623BAA2C7D39B70050F293 /* SwiftyProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623BA92C7D39B70050F293 /* SwiftyProxyTests.swift */; };
 		73623BB42C7D39B70050F293 /* SwiftyProxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623BB32C7D39B70050F293 /* SwiftyProxyUITests.swift */; };
 		73623BB62C7D39B70050F293 /* SwiftyProxyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623BB52C7D39B70050F293 /* SwiftyProxyUITestsLaunchTests.swift */; };
+		73623BC62C7D3CBC0050F293 /* SwiftyProxyCore in Frameworks */ = {isa = PBXBuildFile; productRef = 73623BC52C7D3CBC0050F293 /* SwiftyProxyCore */; };
+		736AFC0C2C7D3F36008E2C3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736AFC0B2C7D3F36008E2C3A /* HomeView.swift */; };
+		736AFC102C7D3FF7008E2C3A /* WifiProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736AFC0F2C7D3FF7008E2C3A /* WifiProxyManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		73623B942C7D39B50050F293 /* SwiftyProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73623B972C7D39B50050F293 /* SwiftyProxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyProxyApp.swift; sourceTree = "<group>"; };
-		73623B992C7D39B50050F293 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73623B9B2C7D39B70050F293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73623B9E2C7D39B70050F293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73623BA02C7D39B70050F293 /* SwiftyProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftyProxy.entitlements; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		73623BAF2C7D39B70050F293 /* SwiftyProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73623BB32C7D39B70050F293 /* SwiftyProxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyProxyUITests.swift; sourceTree = "<group>"; };
 		73623BB52C7D39B70050F293 /* SwiftyProxyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyProxyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73623BC32C7D3C400050F293 /* SwiftyProxyCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SwiftyProxyCore; sourceTree = "<group>"; };
+		736AFC0B2C7D3F36008E2C3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		736AFC0F2C7D3FF7008E2C3A /* WifiProxyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiProxyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73623BC62C7D3CBC0050F293 /* SwiftyProxyCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +100,10 @@
 		73623B962C7D39B50050F293 /* SwiftyProxy */ = {
 			isa = PBXGroup;
 			children = (
+				736AFC0E2C7D3FE1008E2C3A /* Services */,
+				736AFC0A2C7D3EF8008E2C3A /* Scenes */,
+				73623BC32C7D3C400050F293 /* SwiftyProxyCore */,
 				73623B972C7D39B50050F293 /* SwiftyProxyApp.swift */,
-				73623B992C7D39B50050F293 /* ContentView.swift */,
 				73623B9B2C7D39B70050F293 /* Assets.xcassets */,
 				73623BA02C7D39B70050F293 /* SwiftyProxy.entitlements */,
 				73623B9D2C7D39B70050F293 /* Preview Content */,
@@ -129,6 +136,30 @@
 			path = SwiftyProxyUITests;
 			sourceTree = "<group>";
 		};
+		736AFC0A2C7D3EF8008E2C3A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				736AFC0D2C7D3F3A008E2C3A /* HomeModule */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		736AFC0D2C7D3F3A008E2C3A /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				736AFC0B2C7D3F36008E2C3A /* HomeView.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		736AFC0E2C7D3FE1008E2C3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				736AFC0F2C7D3FF7008E2C3A /* WifiProxyManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +176,9 @@
 			dependencies = (
 			);
 			name = SwiftyProxy;
+			packageProductDependencies = (
+				73623BC52C7D3CBC0050F293 /* SwiftyProxyCore */,
+			);
 			productName = SwiftyProxy;
 			productReference = 73623B942C7D39B50050F293 /* SwiftyProxy.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 73623B8B2C7D39B50050F293;
+			packageReferences = (
+				73623BC42C7D3CBC0050F293 /* XCLocalSwiftPackageReference "SwiftyProxy/SwiftyProxyCore" */,
+			);
 			productRefGroup = 73623B952C7D39B50050F293 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73623B9A2C7D39B50050F293 /* ContentView.swift in Sources */,
 				73623B982C7D39B50050F293 /* SwiftyProxyApp.swift in Sources */,
+				736AFC0C2C7D3F36008E2C3A /* HomeView.swift in Sources */,
+				736AFC102C7D3FF7008E2C3A /* WifiProxyManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +619,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		73623BC42C7D3CBC0050F293 /* XCLocalSwiftPackageReference "SwiftyProxy/SwiftyProxyCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SwiftyProxy/SwiftyProxyCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		73623BC52C7D3CBC0050F293 /* SwiftyProxyCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftyProxyCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 73623B8C2C7D39B50050F293 /* Project object */;
 }
