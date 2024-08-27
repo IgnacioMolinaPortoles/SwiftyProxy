@@ -1,7 +1,6 @@
 <img width="1271" alt="Screenshot 2024-08-26 at 9 58 54 PM" src="https://github.com/user-attachments/assets/818e1042-5273-4fd8-a0fc-6165e23333e9">
 
 
-<img width="421" alt="Screenshot 2024-08-26 at 10 04 07 PM" src="https://github.com/user-attachments/assets/05ff27f7-b419-4021-b5c1-72ef72ed5ab1">
 
 
 Features
@@ -14,6 +13,9 @@ Future Features
 - [ ] Request Modification: Allow users to edit and resend intercepted network requests.
 
 Basic Usage
+<p align="center">
+    <img width="421" alt="Screenshot 2024-08-26 at 10 04 07 PM" src="https://github.com/user-attachments/assets/05ff27f7-b419-4021-b5c1-72ef72ed5ab1">
+</p>
 
 1. Create certificates (See below)
 2. Install cerificates in Mac and iOS Simulator
