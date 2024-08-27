@@ -1,8 +1,6 @@
 <img width="1271" alt="Screenshot 2024-08-26 at 9 58 54 PM" src="https://github.com/user-attachments/assets/818e1042-5273-4fd8-a0fc-6165e23333e9">
 
-SwiftyProxy: Network Logger
 
-SwiftyProxy is a network logging tool. It's built in Swift using Swift-NIO and intercepts and log network traffic in iOS/macOS.
 
 Features
 - [x] Network Interception: Capture HTTP/HTTPS requests and responses.
